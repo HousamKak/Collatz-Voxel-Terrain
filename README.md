@@ -1,9 +1,6 @@
-Below is a suggested **README.md** for your “Enhanced Collatz Voxel Terrain” project. Feel free to tweak any section to better suit your preferences or to reflect any additional details.
-
-````markdown
 # Enhanced Collatz Voxel Terrain
 
-An interactive 3D voxel world generated from the Collatz sequence, powered by Three.js and procedural noise. Explore infinite mathematical landscapes, hunt for hidden treasures, and uncover special “discoveries” as you traverse terrain shaped by one of mathematics’ most curious sequences.
+An interactive 3D voxel world generated from the Collatz sequence, powered by Three.js and procedural noise. Explore infinite mathematical landscapes, hunt for hidden treasures, and uncover special "discoveries" as you traverse terrain shaped by one of mathematics' most curious sequences.
 
 ---
 
@@ -28,7 +25,7 @@ An interactive 3D voxel world generated from the Collatz sequence, powered by Th
 
 ## 🌐 Overview
 
-This project transforms the Collatz sequence into a richly textured 3D voxel terrain. Each voxel’s height and material are influenced by both multi-octave simplex noise and the values from a user-specified Collatz sequence “seed.” Enhanced UI overlays, a minimap, and interactive features (treasures, discoveries, waypoints) turn mathematical exploration into a playful experience.
+This project transforms the Collatz sequence into a richly textured 3D voxel terrain. Each voxel's height and material are influenced by both multi-octave simplex noise and the values from a user-specified Collatz sequence "seed." Enhanced UI overlays, a minimap, and interactive features (treasures, discoveries, waypoints) turn mathematical exploration into a playful experience.
 
 ---
 
@@ -53,8 +50,8 @@ This project transforms the Collatz sequence into a richly textured 3D voxel ter
   - In-game minimap with treasures, waypoints, and player marker  
 
 - **Map Activities**  
-  - 🎯 5 hidden treasures placed at Collatz “peaks”  
-  - 🔍 3 special “discoveries” based on mathematical patterns  
+  - 🎯 5 hidden treasures placed at Collatz "peaks"  
+  - 🔍 3 special "discoveries" based on mathematical patterns  
   - 📍 Place and teleport to custom waypoints  
 
 - **Utility**  
@@ -84,12 +81,12 @@ This project transforms the Collatz sequence into a richly textured 3D voxel ter
    ```bash
    git clone https://github.com/yourusername/collatz-voxel-terrain.git
    cd collatz-voxel-terrain
-````
+   ```
 
-2. **(Optional)** If you’d like to host locally with live-reload:
+2. **(Optional)** If you'd like to host locally with live-reload:
 
    ```bash
-   # Using Node.jsʼs http-server
+   # Using Node.js's http-server
    npm install -g http-server
    http-server . -c-1
    ```
@@ -121,9 +118,9 @@ This project transforms the Collatz sequence into a richly textured 3D voxel ter
 | Toggle Performance Overlay         | P                         |
 | Cycle Texture Pack                 | T (or click in UI)        |
 | Fullscreen                         | F (or button)             |
-| Screenshot                         | UI “📸 Screenshot” button |
+| Screenshot                         | UI "📸 Screenshot" button |
 | Place Waypoint (Minimap)           | Click on map canvas       |
-| Teleport to Waypoint               | “Go to Waypoint” button   |
+| Teleport to Waypoint               | "Go to Waypoint" button   |
 
 Hover over sliders and buttons for tooltips in the pause menu.
 
@@ -225,10 +222,3 @@ Please keep changes focused and document new features in this README.
 ## 📄 License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
-
-```
-
-––
-
-Feel free to adapt any section—adding badges, more screenshots, or adjusting instructions—for your preferred workflow.
-```
